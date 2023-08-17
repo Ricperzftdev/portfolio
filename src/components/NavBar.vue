@@ -1,11 +1,25 @@
 <script setup>
+import { useRoute } from 'vue-router';
+import { ref, watch } from 'vue';
+
+const route = useRoute();
+const currentPage = ref("");
+
+watch(
+    () => route.name,
+    currentPag => {
+        currentPage.value = currentPag
+    }
+);
 
 </script>
 
 <template>
     <nav class="navbar navbar-expand-lg">
         <div class="container py-3">
-            <RouterLink class="navbar-brand" to="/"><span class="text-decorator"></span>Richard Perez <span class="my_role d-block d-lg-inline"><span class="slash d-none d-md-inline">/</span> full stack developer</span></RouterLink>
+            <RouterLink class="navbar-brand" to="/"><span class="text-decorator"></span>Richard Perez <span
+                    class="my_role d-block d-lg-inline"><span class="slash d-none d-md-inline">/</span> full stack
+                    developer</span></RouterLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -13,13 +27,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto text-uppercase">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About me</a>
+                        <a class="nav-link" :class="currentPage === `home` && `active`" aria-current="page" href="#">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Resume</a>
+                        <a class="nav-link" :class="currentPage === `resume` && `active`" href="#">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" :class="currentPage === `projects` && `active`"  href="#">Projects</a>
                     </li>
                 </ul>
             </div>
@@ -55,4 +69,7 @@
     margin: 0 5px;
 }
 
+.nav-item a.active, .nav-item a:hover {
+    color: #0050ff;
+}
 </style>

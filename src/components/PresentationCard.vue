@@ -43,10 +43,10 @@ import { RouterLink } from 'vue-router';
                         <p class="card-title welcome-title">Hello World</p>
                         <p class="welcome-subtitle custom-padding">Here's who I am & what I do</p>
                         <div class="links-container d-none d-lg-block my-4 custom-padding">
-                            <RouterLink to="/" class="link-btn me-3">
+                            <RouterLink to="/resume" class="link-btn me-3">
                                 RESUME
                             </RouterLink>
-                            <RouterLink to="/" class="link-btn">
+                            <RouterLink to="/projects" class="link-btn">
                                 PROJECTS
                             </RouterLink>
                         </div>
