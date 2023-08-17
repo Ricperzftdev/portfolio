@@ -3,7 +3,8 @@
 </script>
 
 <template>
-    <section class="hero d-flex flex-column flex-md-row">
+    <section class="hero d-flex flex-column flex-md-row position-relative">
+        <PresentationCard />
         <div class="first-area"></div>
         <div class="second-area"></div>
     </section>
@@ -12,7 +13,8 @@
 <style scoped>
 .hero {
     width: 100%;
-    height: 100vh;
+    margin-top: 95.5px;
+    height: calc(100vh - 95.5px);
 }
 
 .first-area {
@@ -24,15 +26,23 @@
     width: 60%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+    .hero {
+        height: auto;
+        margin-top: 118px;
+    }
+
     .first-area {
         height: 40%;
         width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
     }
 
     .second-area {
-        height: 60%;
-        width: 100%;
+        display: none;
     }
 }
 </style>

@@ -5,7 +5,7 @@
 <template>
     <nav class="navbar navbar-expand-lg">
         <div class="container py-3">
-            <RouterLink class="navbar-brand" to="/"><span class="text-decorator"></span>Richard Perez <span class="my_role d-block d-md-inline"><span class="slash d-none d-md-inline">/</span> full stack developer</span></RouterLink>
+            <RouterLink class="navbar-brand" to="/"><span class="text-decorator"></span>Richard Perez <span class="my_role d-block d-lg-inline"><span class="slash d-none d-md-inline">/</span> full stack developer</span></RouterLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
