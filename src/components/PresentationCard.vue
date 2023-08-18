@@ -33,8 +33,8 @@ import { RouterLink } from 'vue-router';
                         </div>
                     </div>
                     <div class="social-media-container bg-white w-100 text-center py-2">
-                        <a href="#" class="text-black"><i class="bi bi-twitter"></i></a>
-                        <a href="#" class="text-black mx-2"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://twitter.com/Ricperzdev" target="_blank" class="text-black"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/richardev99/" target="_blank" class="text-black mx-2"><i class="bi bi-linkedin"></i></a>
                         <a href="#" class="text-black"><i class="bi bi-discord"></i></a>
                     </div>
                 </div>
@@ -121,11 +121,11 @@ import { RouterLink } from 'vue-router';
     
 }
 
-.social-media-container a {
+.social-media-container a i {
     transition: all ease-in-out 0.2s;
 }
 
-.social-media-container a:hover {
+.social-media-container a:hover i {
     color: #0050ff !important;
 }
 

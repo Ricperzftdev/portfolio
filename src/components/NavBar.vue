@@ -27,13 +27,13 @@ watch(
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto text-uppercase">
                     <li class="nav-item">
-                        <a class="nav-link" :class="currentPage === `home` && `active`" aria-current="page" href="#">About me</a>
+                        <RouterLink class="nav-link" :class="currentPage === `home` && `active`" aria-current="page" to="/">About me</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" :class="currentPage === `resume` && `active`" href="#">Resume</a>
+                        <RouterLink class="nav-link" :class="currentPage === `resume` && `active`" to="/resume">Resume</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" :class="currentPage === `projects` && `active`"  href="#">Projects</a>
+                        <RouterLink class="nav-link" :class="currentPage === `projects` && `active`"  to="/projects">Projects</RouterLink>
                     </li>
                 </ul>
             </div>
