@@ -120,7 +120,8 @@
                         <div class="card shadow p-3">
                             <div class="card-body">
                                 <h4>Español</h4>
-                                <p class="mb-0">Hablo y entiendo español a la perfección, ya que soy oriundo de Venezuela.</p>
+                                <p class="mb-0">Hablo y entiendo español a la perfección, ya que soy oriundo de Venezuela.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -128,7 +129,8 @@
                         <div class="card shadow p-3">
                             <div class="card-body">
                                 <h4>English</h4>
-                                <p class="mb-0">I can communicate and understand in writing, but speaking and listening are difficult.</p>
+                                <p class="mb-0">I can communicate and understand in writing, but speaking and listening are
+                                    difficult.</p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +138,7 @@
             </section>
 
             <section class="education mt-5">
-                <div class= "mb-3">
+                <div class="mb-3">
                     <h2 class="resume-subtitles">Education</h2>
                 </div>
 
@@ -149,7 +151,11 @@
                                 <p class="text-secondary">Civil engineering</p>
                             </div>
                             <div class="col-12 col-lg-8">
-                                <p>During my Civil Engineering career, I acquired a series of knowledge and skills that can be applied in an interesting way in web development. Although at first glance they seem very different disciplines, there are areas of convergence that allow to take advantage of what I learned in Civil Engineering to improve and enrich the practice of web development.</p>
+                                <p>During my Civil Engineering career, I acquired a series of knowledge and skills that can
+                                    be applied in an interesting way in web development. Although at first glance they seem
+                                    very different disciplines, there are areas of convergence that allow to take advantage
+                                    of what I learned in Civil Engineering to improve and enrich the practice of web
+                                    development.</p>
                             </div>
                         </div>
                     </div>
@@ -167,22 +173,27 @@
                             <div class="card-body">
                                 <h4 class="mb-0 fw-bold"><span class="text-decorator"></span>Terry West</h4>
                                 <p class="text-muted">Blockchain Pilots</p>
-                                <p class="mb-0"><i class="bi bi-quote quote"></i>Richard has been a pleasure to work with. Always pushing to find the best solution and solve unforseen problems. He quickly grew from a junior team member to helping lead the development process of new projects.</p>
+                                <p class="mb-0"><i class="bi bi-quote quote"></i>Richard has been a pleasure to work with.
+                                    Always pushing to find the best solution and solve unforseen problems. He quickly grew
+                                    from a junior team member to helping lead the development process of new projects.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 mb-4">
                         <div class="card shadow p-3">
                             <div class="card-body">
-                                <h4 class="mb-0 fw-bold"><span class="text-decorator"></span>Nathan Strudders</h4>
+                                <h4 class="mb-0 fw-bold"><span class="text-decorator"></span>Nathan Staples</h4>
                                 <p class="text-muted">Blockchain Pilots</p>
-                                <p class="mb-0"><i class="bi bi-quote quote"></i>The best</p>
+                                <p class="mb-0"><i class="bi bi-quote quote"></i>Richard has always shown a keen eye for
+                                    detail and an ability to pivot when required.
+                                    He has always been enthusiastic and diligent in his approach to work.
+                                    It has been an absolute pleasure to work with this talented young man.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            
+
         </div>
     </main>
 </template>
@@ -263,5 +274,4 @@ li::marker {
     .resume-page {
         margin-top: 118px;
     }
-}
-</style>
+}</style>
