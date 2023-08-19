@@ -35,7 +35,6 @@ import { RouterLink } from 'vue-router';
                     <div class="social-media-container bg-white w-100 text-center py-2">
                         <a href="https://twitter.com/Ricperzdev" target="_blank" class="text-black"><i class="bi bi-twitter"></i></a>
                         <a href="https://www.linkedin.com/in/richardev99/" target="_blank" class="text-black mx-2"><i class="bi bi-linkedin"></i></a>
-                        <a href="#" class="text-black"><i class="bi bi-discord"></i></a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-7 pb-5 py-lg-5">
@@ -50,9 +49,8 @@ import { RouterLink } from 'vue-router';
                                 PROJECTS
                             </RouterLink>
                         </div>
-                        <p class="card-text welcome-description custom-padding">I'm Civil Engineer and Junior Full Stack
-                            Developer
-                            from Venezuela with 1 and half years of experience in web3 technology development. Proficient in
+                        <p class="card-text welcome-description custom-padding">I'm Civil Engineer and Full Stack
+                            Developer from Venezuela with 1 year and a half of experience in web3 technology development. Proficient in
                             Vue.js, Nuxt.js, Firebase, and integrating APIs like Koios and Blockfrost for Cardano blockchain
                             applications.</p>
                     </div>

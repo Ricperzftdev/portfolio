@@ -16,8 +16,8 @@
                 <div class="card shadow">
                     <div class="card-body p-4 p-lg-5">
                         Junior Full Stack Developer with a year and a half of experience in web development
-                        using web3 technology. Knowledge in both front-end and back-end
-                        development, excelling in crafting robust solutions and compelling user experiences. Proficient
+                        using web3 technology. Knowledge in both frontend and backend
+                        development, excelling in crafting solutions and attractive user experiences. Proficient
                         in Vue.js, Nuxt.js, and Firebase, as well as integrating APIs like Koios and Blockfrost to deliver
                         advanced features in applications based on the Cardano blockchain.
                     </div>

@@ -21,8 +21,8 @@
                     <div class="text-lg-center">
                         <p class="f-title">Follow</p>
                         <div>
-                            <a href="#" class="text-black"><i class="bi bi-twitter me-2"></i></a>
-                            <a href="#" class="text-black"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://twitter.com/Ricperzdev" target="_blank" class="text-black"><i class="bi bi-twitter me-2"></i></a>
+                            <a href="https://www.linkedin.com/in/richardev99/" target="_blank" class="text-black"><i class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
