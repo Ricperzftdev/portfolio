@@ -24,10 +24,10 @@ import { RouterLink } from 'vue-router';
                             Full Stack Developer
                         </p>
                         <div class="links-container d-lg-none my-4">
-                            <RouterLink to="/" class="link-btn me-3">
+                            <RouterLink to="/resume" class="link-btn me-3">
                                 RESUME
                             </RouterLink>
-                            <RouterLink to="/" class="link-btn">
+                            <RouterLink to="/projects" class="link-btn">
                                 PROJECTS
                             </RouterLink>
                         </div>
