@@ -1,3 +1,17 @@
 {
-    "hello": "Hola Mundo"
+    "general": {
+        "navItem0": "sobre mi",
+        "navItem1": "curriculum",
+        "navItem2": "proyectos",
+        "by": "por",
+        "contact": "contacto",
+        "follow": "redes"
+    },
+    "aboutMe": {
+        "hello": "Hola Mundo",
+        "ImIdo": "Esto es lo que soy y lo que hago",
+        "resume": "curriculum",
+        "projects": "proyectos",
+        "description": "Soy Ingeniero Civil y Full Stack Developer de Venezuela con 1 año y medio de experiencia en desarrollo de tecnología web3. Competente en Vue.js, Nuxt.js, Firebase, e integrando APIs como Koios y Blockfrost para aplicaciones Cardano blockchain."
+    }
 }

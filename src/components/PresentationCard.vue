@@ -23,10 +23,10 @@ import { RouterLink } from 'vue-router';
                         </p>
                         <div class="links-container d-lg-none my-4">
                             <RouterLink to="/resume" class="link-btn me-3">
-                                RESUME
+                                {{$t("aboutMe.resume")}}
                             </RouterLink>
                             <RouterLink to="/projects" class="link-btn">
-                                PROJECTS
+                                {{$t("aboutMe.projects")}}
                             </RouterLink>
                         </div>
                     </div>
@@ -37,20 +37,17 @@ import { RouterLink } from 'vue-router';
                 </div>
                 <div class="col-12 col-lg-7 pb-5 py-lg-5">
                     <div class="card-body">
-                        <p class="card-title welcome-title">{{ $t("hello")}}</p>
-                        <p class="welcome-subtitle custom-padding">Here's who I am & what I do</p>
+                        <p class="card-title welcome-title">{{$t("aboutMe.hello")}}</p>
+                        <p class="welcome-subtitle custom-padding">{{$t("aboutMe.ImIdo")}}</p>
                         <div class="links-container d-none d-lg-block my-4 custom-padding">
                             <RouterLink to="/resume" class="link-btn me-3">
-                                RESUME
+                                {{$t("aboutMe.resume")}}
                             </RouterLink>
                             <RouterLink to="/projects" class="link-btn">
-                                PROJECTS
+                                {{$t("aboutMe.projects")}}
                             </RouterLink>
                         </div>
-                        <p class="card-text welcome-description custom-padding">I'm Civil Engineer and Full Stack
-                            Developer from Venezuela with 1 year and a half of experience in web3 technology development. Proficient in
-                            Vue.js, Nuxt.js, Firebase, and integrating APIs like Koios and Blockfrost for Cardano blockchain
-                            applications.</p>
+                        <p class="card-text welcome-description custom-padding">{{$t("aboutMe.description")}}</p>
                     </div>
                 </div>
             </div>
@@ -100,6 +97,7 @@ import { RouterLink } from 'vue-router';
     padding: 6px 20px;
     text-decoration: none;
     border-radius: 23px;
+    text-transform: uppercase;
     transition: all ease-in-out 0.2s;
 }
 

@@ -27,13 +27,13 @@ watch(
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto text-uppercase">
                     <li class="nav-item">
-                        <RouterLink class="nav-link" :class="currentPage === `home` && `active`" aria-current="page" to="/">About me</RouterLink>
+                        <RouterLink class="nav-link" :class="currentPage === `home` && `active`" aria-current="page" to="/">{{$t("general.navItem0")}}</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="nav-link" :class="currentPage === `resume` && `active`" to="/resume">Resume</RouterLink>
+                        <RouterLink class="nav-link" :class="currentPage === `resume` && `active`" to="/resume">{{$t("general.navItem1")}}</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="nav-link" :class="currentPage === `projects` && `active`"  to="/projects">Projects</RouterLink>
+                        <RouterLink class="nav-link" :class="currentPage === `projects` && `active`"  to="/projects">{{$t("general.navItem2")}}</RouterLink>
                     </li>
                 </ul>
             </div>
