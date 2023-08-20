@@ -2,33 +2,28 @@
     <main class="resume-page">
         <div class="container py-5" style="max-width: 724px;">
             <header class="text-center pb-5">
-                <h1 class="resume-title"><span class="text-decorator"></span>Resume</h1>
+                <h1 class="resume-title"><span class="text-decorator"></span>{{$t("resume.title")}}</h1>
             </header>
 
             <section class="resume">
                 <article class="professional-profile">
                     <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h2 class="resume-subtitles">Profile</h2>
+                        <h2 class="resume-subtitles">{{$t("resume.profile.title")}}</h2>
                         <a href="" class="download-cv-btn">
-                            Download CV
+                            {{$t("resume.btn")}}
                         </a>
                     </div>
 
                     <div class="card shadow">
                         <div class="card-body p-4 p-lg-5">
-                            Junior Full Stack Developer with a year and a half of experience in web development
-                            using web3 technology. Knowledge in both frontend and backend
-                            development, excelling in crafting solutions and attractive user experiences. Proficient
-                            in Vue.js, Nuxt.js, and Firebase, as well as integrating APIs like Koios and Blockfrost to
-                            deliver
-                            advanced features in applications based on the Cardano blockchain.
+                            {{$t("resume.profile.content")}}
                         </div>
                     </div>
                 </article>
 
                 <article class="experience mt-5">
                     <div class="mb-3">
-                        <h2 class="resume-subtitles">Experience</h2>
+                        <h2 class="resume-subtitles">{{$t("resume.experience.title")}}</h2>
                     </div>
 
                     <div class="card shadow">
@@ -36,40 +31,19 @@
                             <div class="row">
                                 <p class="dates">05/2022 - 08/2023</p>
                                 <div class="col-12 col-lg-4">
-                                    <p class="mb-0 text-secondary fw-bold">Full Stack Developer</p>
+                                    <p class="mb-0 text-secondary fw-bold">{{$t("resume.experience.history[0].role")}}</p>
                                     <p class="text-secondary">Blockchain Pilots</p>
                                 </div>
                                 <div class="col-12 col-lg-8">
                                     <ul>
-                                        <li>Worked within the Cardano blockchain ecosystem, integrating numerous
-                                            functionalities
-                                            using APIs such as Koios and Blockfrost to create comprehensive and feature-rich
-                                            environments within our applications.</li>
-                                        <li>Participated in the creation and layout of responsive websites for clients and
-                                            internal projects, employing technologies like HTML, CSS, and Vue.js.</li>
-                                        <li>Utilized Vue.js 2 and 3 as primary tools for application and website
-                                            development,
-                                            focusing on optimization, semantic enhancement, and design consistency for an
-                                            optimal user experience. </li>
-                                        <li>Led larger-scale projects using Nuxt.js and TypeScript to achieve more efficient
-                                            and
-                                            maintainable results.</li>
-                                        <li>Implemented Firebase as the database and backend, leveraging Firebase Cloud
-                                            Functions to ensure data security through filtering and validation.</li>
-                                        <li>Contributed to the development of a control panel that empowered clients with
-                                            total
-                                            project control, providing real-time statistics and testing capabilities for new
-                                            features in NFT projects.</li>
-                                        <li>Built the foundation for an NFT viewer with support for multiple file types.</li>
-                                        <li>Led the development of an ongoing NFT game, orchestrating user wallet
-                                            integration,
-                                            matchmaking system with cancellation options, character selection mechanics,
-                                            real-time gameplay implementation, and end-of-match result presentation.
-                                            Implemented
-                                            Firebase technologies, including transactions and Firestore, to establish a
-                                            secure
-                                            and immersive realtime gaming experience, with all data stored and accessible
-                                            through a user-friendly scoreboard.</li>
+                                        <li>{{ $t("resume.experience.history[0].activities[0]") }}</li>
+                                        <li>{{ $t("resume.experience.history[0].activities[1]") }}</li>
+                                        <li>{{ $t("resume.experience.history[0].activities[2]") }}</li>
+                                        <li>{{ $t("resume.experience.history[0].activities[3]") }}</li>
+                                        <li>{{ $t("resume.experience.history[0].activities[4]") }}</li>
+                                        <li>{{ $t("resume.experience.history[0].activities[5]") }}</li>
+                                        <li>{{ $t("resume.experience.history[0].activities[6]") }}</li>
+                                        <li>{{ $t("resume.experience.history[0].activities[7]") }}</li>
                                     </ul>
                                 </div>
                             </div>
@@ -79,7 +53,7 @@
 
                 <article class="skills mt-5">
                     <div class="mb-3">
-                        <h2 class="resume-subtitles">Skills</h2>
+                        <h2 class="resume-subtitles">{{$t("resume.skills.title")}}</h2>
                     </div>
 
                     <div class="card shadow">
@@ -122,7 +96,7 @@
 
                 <article class="languages mt-5">
                     <div class="mb-3">
-                        <h2 class="resume-subtitles">Languages</h2>
+                        <h2 class="resume-subtitles">{{$t("resume.languages.title")}}</h2>
                     </div>
 
                     <div class="row">
@@ -151,7 +125,7 @@
 
                 <article class="education mt-5">
                     <div class="mb-3">
-                        <h2 class="resume-subtitles">Education</h2>
+                        <h2 class="resume-subtitles">{{$t("resume.education.title")}}</h2>
                     </div>
 
                     <div class="card shadow">
@@ -160,17 +134,10 @@
                                 <p class="dates">06/2017 - 05/2022</p>
                                 <div class="col-12 col-lg-4">
                                     <p class="mb-0 text-secondary fw-bold">UNELLEZ</p>
-                                    <p class="text-secondary">Civil engineering</p>
+                                    <p class="text-secondary">{{$t("resume.education.history[0].degree")}}</p>
                                 </div>
                                 <div class="col-12 col-lg-8">
-                                    <p>During my Civil Engineering career, I acquired a series of knowledge and skills that
-                                        can
-                                        be applied in an interesting way in web development. Although at first glance they
-                                        seem
-                                        very different disciplines, there are areas of convergence that allow to take
-                                        advantage
-                                        of what I learned in Civil Engineering to improve and enrich the practice of web
-                                        development.</p>
+                                    <p>{{$t("resume.education.history[0].description")}}</p>
                                 </div>
                             </div>
                         </div>
@@ -179,7 +146,7 @@
 
                 <article class="reference mt-5">
                     <div class="mb-3">
-                        <h2 class="resume-subtitles">Reference</h2>
+                        <h2 class="resume-subtitles">{{$t("resume.references.title")}}</h2>
                     </div>
 
                     <div class="row">

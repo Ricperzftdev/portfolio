@@ -13,5 +13,50 @@
         "resume": "resume",
         "projects": "projects",
         "description": "I'm Civil Engineer and Full Stack Developer from Venezuela with 1 year and a half of experience in web3 technology development. Proficient in Vue.js, Nuxt.js, Firebase, and integrating APIs like Koios and Blockfrost for Cardano blockchain applications."
+    },
+    "resume": {
+        "title": "Resume",
+        "btn": "Download CV",
+        "profile": {
+            "title": "Profile",
+            "content": "Junior Full Stack Developer with a year and a half of experience in web development using web3 technology. Knowledge in both frontend and backend development, excelling in crafting solutions and attractive user experiences. Proficient in Vue.js, Nuxt.js, and Firebase, as well as integrating APIs like Koios and Blockfrost to deliver advanced features in applications based on the Cardano blockchain."
+        },
+        "experience": {
+            "title": "Experience",
+            "history": [
+                {
+                    "company": "Blockchain Pilots",
+                    "role": "Full Stack Developer",
+                    "activities": [
+                        "Worked within the Cardano blockchain ecosystem, integrating numerous functionalities using APIs such as Koios and Blockfrost to create comprehensive and feature-rich environments within our applications.",
+                        "Participated in the creation and layout of responsive websites for clients and internal projects, employing technologies like HTML, CSS, and Vue.js.",
+                        "Utilized Vue.js 2 and 3 as primary tools for application and website development, focusing on optimization, semantic enhancement, and design consistency for an optimal user experience.",
+                        "Led larger-scale projects using Nuxt.js and TypeScript to achieve more efficient and maintainable results.",
+                        "Implemented Firebase as the database and backend, leveraging Firebase Cloud Functions to ensure data security through filtering and validation.",
+                        "Contributed to the development of a control panel that empowered clients with total project control, providing real-time statistics and testing capabilities for new features in NFT projects.",
+                        "Built the foundation for an NFT viewer with support for multiple file types.",
+                        "Led the development of an ongoing NFT game, orchestrating user wallet integration, matchmaking system with cancellation options, character selection mechanics, real-time gameplay implementation, and end-of-match result presentation. Implemented Firebase technologies, including transactions and Firestore, to establish a secure and immersive realtime gaming experience, with all data stored and accessible through a user-friendly scoreboard."
+                    ]
+                }
+            ]
+        },
+        "skills": {
+            "title": "Skills"
+        },
+        "languages": {
+            "title": "Languages"
+        },
+        "education": {
+            "title": "Education",
+            "history": [
+                {
+                    "degree": "Civil engineering",
+                    "description": "During my Civil Engineering career, I acquired a series of knowledge and skills that can be applied in an interesting way in web development. Although at first glance they seem very different disciplines, there are areas of convergence that allow to take advantage of what I learned in Civil Engineering to improve and enrich the practice of web development."
+                }
+            ]
+        },
+        "references": {
+            "title": "References"
+        }
     }
 }

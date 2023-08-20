@@ -13,5 +13,50 @@
         "resume": "curriculum",
         "projects": "proyectos",
         "description": "Soy Ingeniero Civil y Full Stack Developer de Venezuela con 1 año y medio de experiencia en desarrollo de tecnología web3. Competente en Vue.js, Nuxt.js, Firebase, e integrando APIs como Koios y Blockfrost para aplicaciones Cardano blockchain."
+    },
+    "resume": {
+        "title": "Curriculum",
+        "btn": "Descargar CV",
+        "profile": {
+            "title": "Perfil",
+            "content": "Desarrollador Junior Full Stack con año y medio de experiencia en desarrollo web con tecnología web3. Conocimientos tanto en desarrollo frontend como backend, destacando en la creación de soluciones y experiencias de usuario atractivas. Dominio de Vue.js, Nuxt.js y Firebase, así como integración de APIs como Koios y Blockfrost para ofrecer funcionalidades avanzadas en aplicaciones basadas en la blockchain Cardano."
+        },
+        "experience": {
+            "title": "Experiencia",
+            "history": [
+                {
+                    "company": "Blockchain Pilots",
+                    "role": "Desarrollador Full Stack",
+                    "activities": [
+                        "Trabajar en el ecosistema blockchain de Cardano, integrando numerosas funcionalidades mediante APIs como Koios y Blockfrost para crear entornos completos y ricos en funciones dentro de nuestras aplicaciones.",
+                        "Participar en la creación y maquetación de sitios web responsive para clientes y proyectos internos, empleando tecnologías como HTML, CSS y Vue.js.",
+                        "Utilización de Vue.js 2 y 3 como herramientas principales para el desarrollo de aplicaciones y sitios web, centrándose en la optimización, la mejora semántica y la coherencia del diseño para una experiencia de usuario óptima.",
+                        "Dirigir proyectos a mayor escala utilizando Nuxt.js y TypeScript para lograr resultados más eficientes y mantenibles",
+                        "Implementar Firebase como base de datos y backend, aprovechando Firebase Cloud Functions para garantizar la seguridad de los datos mediante filtrado y validación.",
+                        "Contribuir al desarrollo de un panel de control que dotaba a los clientes de un control total su proyecto NFT, proporcionando estadísticas en tiempo real y capacidades de prueba para las nuevas funciones que deseen implementar.",
+                        "Creación de un NFT viewer compatible con varios tipos de archivos.",
+                        "Dirigir el desarrollo de un juego NFT en curso, orquestando la integración del monedero del usuario, el sistema de matchmaking con opciones de cancelación, la mecánica de selección de personajes, la implementación del juego en tiempo real y la presentación de los resultados al final del partido. Se utilizó tecnología Firebase, para establecer una experiencia de juego en tiempo real segura y envolvente, con todos los datos almacenados y accesibles a través de un marcador fácil de usar."
+                    ]
+                }
+            ]
+        },
+        "skills": {
+            "title": "Habilidades"
+        },
+        "languages": {
+            "title": "Idiomas"
+        },
+        "education": {
+            "title": "Education",
+            "history": [
+                {
+                    "degree": "Ingeniería civil",
+                    "description": "Durante mi carrera de Ingeniería Civil, adquirí una serie de conocimientos y habilidades que pueden aplicarse de forma interesante en el desarrollo web. Aunque a primera vista parecen disciplinas muy diferentes, existen áreas de convergencia que permiten aprovechar lo que aprendí en Ingeniería Civil para mejorar y enriquecer la práctica del desarrollo web."
+                }
+            ]
+        },
+        "references": {
+            "title": "Referencias"
+        }
     }
 }
