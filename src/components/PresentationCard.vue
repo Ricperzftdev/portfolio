@@ -1,7 +1,5 @@
 <script setup>
 import { RouterLink } from 'vue-router';
-
-
 </script>
 
 <template>
@@ -39,7 +37,7 @@ import { RouterLink } from 'vue-router';
                 </div>
                 <div class="col-12 col-lg-7 pb-5 py-lg-5">
                     <div class="card-body">
-                        <p class="card-title welcome-title">Hello World</p>
+                        <p class="card-title welcome-title">{{ $t("hello")}}</p>
                         <p class="welcome-subtitle custom-padding">Here's who I am & what I do</p>
                         <div class="links-container d-none d-lg-block my-4 custom-padding">
                             <RouterLink to="/resume" class="link-btn me-3">
