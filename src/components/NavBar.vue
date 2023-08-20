@@ -72,4 +72,10 @@ watch(
 .nav-item a.active, .nav-item a:hover {
     color: #0050ff;
 }
+
+@media screen and (max-width: 992px) {
+    ul {
+        font-weight: bold;
+    }
+}
 </style>

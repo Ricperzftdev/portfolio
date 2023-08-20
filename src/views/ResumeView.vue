@@ -1,3 +1,7 @@
+<script setup>
+
+</script>
+
 <template>
     <main class="resume-page">
         <div class="container py-5" style="max-width: 724px;">
