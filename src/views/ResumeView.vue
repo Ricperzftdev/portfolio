@@ -1,33 +1,46 @@
 <script setup>
+import { storage, storageRef, getStorageURL } from "@/plugins/firebase"
+import { ref } from 'vue'
 
+const language = window.navigator.language.substring(0, 2) || "en";
+
+const downloadLink = ref("")
+
+const filePath = language === "en" ? "Full_Stack_Developer_Richard_Perez_CV.pdf" : "Desarrollador_Full_Stack_Richard_Perez_CV.pdf";
+const fileRef = storageRef(storage, filePath);
+getStorageURL(fileRef)
+    .then(url => {
+        downloadLink.value = url
+    })
+    .catch(error => console.log(error))
 </script>
 
 <template>
     <main class="resume-page">
         <div class="container py-5" style="max-width: 724px;">
             <header class="text-center pb-5">
-                <h1 class="resume-title"><span class="text-decorator"></span>{{$t("resume.title")}}</h1>
+                <h1 class="resume-title"><span class="text-decorator"></span>{{ $t("resume.title") }}</h1>
             </header>
 
             <section class="resume">
                 <article class="professional-profile">
                     <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h2 class="resume-subtitles">{{$t("resume.profile.title")}}</h2>
-                        <a href="" class="download-cv-btn">
-                            {{$t("resume.btn")}}
+                        <h2 class="resume-subtitles">{{ $t("resume.profile.title") }}</h2>
+                        <a :href="downloadLink" target="_blank" class="download-cv-btn">
+                            {{ $t("resume.btn") }}
                         </a>
                     </div>
 
                     <div class="card shadow">
                         <div class="card-body p-4 p-lg-5">
-                            {{$t("resume.profile.content")}}
+                            {{ $t("resume.profile.content") }}
                         </div>
                     </div>
                 </article>
 
                 <article class="experience mt-5">
                     <div class="mb-3">
-                        <h2 class="resume-subtitles">{{$t("resume.experience.title")}}</h2>
+                        <h2 class="resume-subtitles">{{ $t("resume.experience.title") }}</h2>
                     </div>
 
                     <div class="card shadow">
@@ -35,7 +48,7 @@
                             <div class="row">
                                 <p class="dates">05/2022 - 08/2023</p>
                                 <div class="col-12 col-lg-4">
-                                    <p class="mb-0 text-secondary fw-bold">{{$t("resume.experience.history[0].role")}}</p>
+                                    <p class="mb-0 text-secondary fw-bold">{{ $t("resume.experience.history[0].role") }}</p>
                                     <p class="text-secondary">Blockchain Pilots</p>
                                 </div>
                                 <div class="col-12 col-lg-8">
@@ -57,7 +70,7 @@
 
                 <article class="skills mt-5">
                     <div class="mb-3">
-                        <h2 class="resume-subtitles">{{$t("resume.skills.title")}}</h2>
+                        <h2 class="resume-subtitles">{{ $t("resume.skills.title") }}</h2>
                     </div>
 
                     <div class="card shadow">
@@ -100,7 +113,7 @@
 
                 <article class="languages mt-5">
                     <div class="mb-3">
-                        <h2 class="resume-subtitles">{{$t("resume.languages.title")}}</h2>
+                        <h2 class="resume-subtitles">{{ $t("resume.languages.title") }}</h2>
                     </div>
 
                     <div class="row">
@@ -129,7 +142,7 @@
 
                 <article class="education mt-5">
                     <div class="mb-3">
-                        <h2 class="resume-subtitles">{{$t("resume.education.title")}}</h2>
+                        <h2 class="resume-subtitles">{{ $t("resume.education.title") }}</h2>
                     </div>
 
                     <div class="card shadow">
@@ -138,10 +151,10 @@
                                 <p class="dates">06/2017 - 05/2022</p>
                                 <div class="col-12 col-lg-4">
                                     <p class="mb-0 text-secondary fw-bold">UNELLEZ</p>
-                                    <p class="text-secondary">{{$t("resume.education.history[0].degree")}}</p>
+                                    <p class="text-secondary">{{ $t("resume.education.history[0].degree") }}</p>
                                 </div>
                                 <div class="col-12 col-lg-8">
-                                    <p>{{$t("resume.education.history[0].description")}}</p>
+                                    <p>{{ $t("resume.education.history[0].description") }}</p>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +163,7 @@
 
                 <article class="reference mt-5">
                     <div class="mb-3">
-                        <h2 class="resume-subtitles">{{$t("resume.references.title")}}</h2>
+                        <h2 class="resume-subtitles">{{ $t("resume.references.title") }}</h2>
                     </div>
 
                     <div class="row">
@@ -263,4 +276,5 @@ li::marker {
     .resume-page {
         margin-top: 118px;
     }
-}</style>
+}
+</style>
