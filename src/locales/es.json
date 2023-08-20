@@ -58,5 +58,60 @@
         "references": {
             "title": "Referencias"
         }
+    },
+    "projects": {
+        "title": "Proyectos",
+        "description": "Estoy encantado de presentar una selección de proyectos que ponen de relieve mis diversas habilidades y experiencia. Desde cautivadores diseños frontend elaborados con HTML, CSS y JavaScript, hasta robustos sistemas backend construidos con tecnologías como Node.js y Firebase. Cada proyecto refleja mi compromiso de ofrecer soluciones limpias, eficientes y fáciles de usar.",
+        "projects": [
+            {
+                "title": "Blockchain Pilots Sitio Web",
+                "company": "Blockchain Pilots",
+                "status": "está activo",
+                "url": "https://blockchainpilots.io/",
+                "description": "Blockchain Pilots ofrece una amplia gama de servicios y herramientas, tanto si se trata de un negocio o proyecto nuevo o ya establecido. Tenemos experiencia en la entrega de software integral y necesidades de consultoría, tales como el desarrollo web3, grupos de apuestas, acuñación NFT, estratificación de obras de arte y manipulación de datos de la cadena."
+            },
+            {
+                "title": "TokenPerkz Sitio Web",
+                "company": "Blockchain Pilots",
+                "status": "está activo",
+                "url": "https://tokenperkz.com/",
+                "description": "TokenPerkz es un portal innovador que permite a los titulares de sus NFT ver contenido exclusivo proporcionado por usted. Puede incluir imágenes, vídeos, demos, zonas de pruebas, retransmisiones en directo, una tienda de NFT, una tienda de comercio electrónico, puntos de recompensa y mucho más."
+            },
+            {
+                "title": "Springboard Sitio Web",
+                "company": "Blockchain Pilots",
+                "status": "está activo",
+                "url": "https://springboardnft.com/",
+                "description": "Springboard está formado por un grupo de entusiastas de las NFT con el objetivo de ayudar a dar a conocer los talentos creativos independientes en la Blockchain de Cardano. El poder de las NFT artísticas reside en la conexión entre el artista y el mercado. Al ofrecer servicios como acuñación, subastas y gotas de recopilación de artistas."
+            },
+            {
+                "title": "RetroNFTs Sitio Web",
+                "company": "Blockchain Pilots",
+                "status": "está activo",
+                "url": "https://retronfts.art/",
+                "description": "RetroNFTs fue fundada en 2021 por dos criptoentusiastas, Nathan y Terry, con el objetivo de hacer las cosas de forma diferente. El dúo se especializa en establecer relaciones con artistas emergentes, ayudándoles a exponer su talento a una red global utilizando la blockchain de Cardano para crear NFT coleccionables."
+            },
+            {
+                "title": "Trait Wars Juego NFT",
+                "company": "Blockchain Pilots",
+                "status": "en proceso",
+                "url": "https://blockchainpilots.io/",
+                "description": "Trait Wars es un juego de estrategia por turnos basado en la plataforma ADA Invadaz. Trait Wars enfrentará a los Zaguris entre sí en una serie de batallas 1 contra 1 hasta encontrar un Gran Campeón. Cualquiera que tenga un Zaguri puede jugar y ganar $invada mientras lo hace."
+            },
+            {
+                "title": "Dungeon Juego RPG",
+                "company": "Personal Project",
+                "status": "en proceso",
+                "url": "https://blockchainpilots.io/",
+                "description": "Juego RPG con Node.js, Express y MongoDB: Creé un pequeño juego RPG como proyecto personal para mejorar mis habilidades en desarrollo backend. Empleé Node.js y Express para construir la infraestructura del servidor, y MongoDB para almacenar los datos del juego."
+            },
+            {
+                "title": "NFT Cardano Viewer",
+                "company": "Blockchain Pilots",
+                "status": "en proceso",
+                "url": "https://blockchainpilots.io/",
+                "description": "La aplicación ofrece a los usuarios una interfaz intuitiva para visualizar sus NFT, verificar su autenticidad y analizar detalladamente los metadatos de cada NFT. Admite archivos HTML, mp3, mp4 e imágenes."
+            }
+        ]
     }
 }

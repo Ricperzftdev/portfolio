@@ -58,5 +58,60 @@
         "references": {
             "title": "References"
         }
+    },
+    "projects": {
+        "title": "Projects",
+        "description": "I'm thrilled to present a curated selection of projects that highlight my diverse skills and expertise. From captivating frontend designs crafted with HTML, CSS, and JavaScript to robust backend systems built on technologies like Node.js and Firebase, each project reflects my commitment to delivering clean, efficient, and user-friendly solutions.",
+        "projects": [
+            {
+                "title": "Blockchain Pilots Website",
+                "company": "Blockchain Pilots",
+                "status": "is live",
+                "url": "https://blockchainpilots.io/",
+                "description": "Blockchain Pilots offer an array of services and tools, whether you’re a new or established business or project. We have experience in delivering on comprehensive software and consulting needs such as web3 development, stake pools, NFT minting, artwork layering and chain data manipulation."
+            },
+            {
+                "title": "TokenPerkz Website",
+                "company": "Blockchain Pilots",
+                "status": "is live",
+                "url": "https://tokenperkz.com/",
+                "description": "TokenPerkz is an innovative portal, which allows holders of your NFTs to see locked content provided by you. This can include images, videos, demos, testing areas, live streams, an NFT store, an e-commerce merch store, reward points and more."
+            },
+            {
+                "title": "Springboard Website",
+                "company": "Blockchain Pilots",
+                "status": "is live",
+                "url": "https://springboardnft.com/",
+                "description": "Springboard is made up of a group of NFT enthusiasts with the aim to help raise awareness of the independent creative talents on the Cardano Blockchain. The power of Art NFTs lies in the connection between the Artist and the market. By offering services such as minting, auctions and Artist compilation drops."
+            },
+            {
+                "title": "RetroNFTs Website",
+                "company": "Blockchain Pilots",
+                "status": "is live",
+                "url": "https://retronfts.art/",
+                "description": "RetroNFTs was founded in 2021 by two crypto-enthusiasts, Nathan and Terry, with the aim of doing things a little differently. The duo specialise in building relationships with emerging artists, helping them expose their talent to a global network using the Cardano blockchain to create collectible NFTs."
+            },
+            {
+                "title": "Trait Wars NFT Game",
+                "company": "Blockchain Pilots",
+                "status": "in process",
+                "url": "https://blockchainpilots.io/",
+                "description": "Trait Wars is a turn-based strategy game built on the ADA Invadaz platform. Trait Wars will pit Zaguris against each other in a series of 1 v 1 battles until a Grand Champion is found! Anyone with a Zaguri can play, and earn $invada while doing it. Trait Wars will combine luck and skill, as players will need to choose their hero and when to use their boosters carefully."
+            },
+            {
+                "title": "Dungeon RPG Clicker Game",
+                "company": "Personal Project",
+                "status": "in process",
+                "url": "https://blockchainpilots.io/",
+                "description": "RPG Game with Node.js, Express, and MongoDB: Created a small RPG game as a personal project to enhance my skills in backend development. Employed Node.js and Express to build the server infrastructure, and MongoDB to store game data."
+            },
+            {
+                "title": "NFT Cardano Viewer",
+                "company": "Blockchain Pilots",
+                "status": "in process",
+                "url": "https://blockchainpilots.io/",
+                "description": "The application provides users with an intuitive interface for viewing their NFTs, verifying authenticity and analyzing the metadata of each NFT in detail. It supports HTML, mp3, mp4 and image files."
+            }
+        ]
     }
 }
