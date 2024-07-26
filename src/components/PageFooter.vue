@@ -7,7 +7,7 @@
         <div class="container py-3">
             <div class="row">
                 <div class="col-12 col-lg-7 order-3 order-lg-1 d-flex">
-                    <p class="align-self-end fw-bold">©2023 {{$t("general.by")}} Richard Perez</p>
+                    <p class="align-self-end fw-bold">©2024 {{$t("general.by")}} Richard Perez</p>
                 </div>
                 <div class="col-8 col-lg-4 order-1 order-lg-2 mb-2 mb-lg-0">
                     <div class="text-lg-center">

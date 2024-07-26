@@ -11,7 +11,7 @@
             </header>
 
             <section class="projects">
-                <article class="card shadow mb-5 overflow-hidden" style="background: transparent;">
+                <article class="card shadow mb-5" style="background: transparent;">
                     <div class="row g-0">
                         <div class="col-md-8 bg-white">
                             <div class="card-body p-5">
@@ -22,6 +22,11 @@
                                             class="bi bi-box-arrow-up-right text-muted ms-1"></i></a>
                                 </header>
                                 <p class="card-text">{{$t("projects.projects[0].description")}}</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="rounded-pill shadow-sm border py-1 px-2" v-for="x in 4" style="font-size: 12px;">
+                                        {{ $t(`projects.projects[0].skills[${x - 1}]`) }}
+                                    </span>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -31,7 +36,7 @@
                     </div>
                 </article>
 
-                <article class="card shadow mb-5 overflow-hidden" style="background: transparent;">
+                <article class="card shadow mb-5" style="background: transparent;">
                     <div class="row g-0">
                         <div class="col-md-8 bg-white">
                             <div class="card-body p-5">
@@ -42,6 +47,11 @@
                                             class="bi bi-box-arrow-up-right text-muted ms-1"></i></a>
                                 </header>
                                 <p class="card-text">{{$t("projects.projects[1].description")}}</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="rounded-pill shadow-sm border py-1 px-2" v-for="x in 5" style="font-size: 12px;">
+                                        {{ $t(`projects.projects[1].skills[${x - 1}]`) }}
+                                    </span>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -51,7 +61,7 @@
                     </div>
                 </article>
 
-                <article class="card shadow mb-5 overflow-hidden" style="background: transparent;">
+                <article class="card shadow mb-5" style="background: transparent;">
                     <div class="row g-0">
                         <div class="col-md-8 bg-white">
                             <div class="card-body p-5">
@@ -62,6 +72,11 @@
                                             class="bi bi-box-arrow-up-right text-muted ms-1"></i></a>
                                 </header>
                                 <p class="card-text">{{$t("projects.projects[2].description")}}</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="rounded-pill shadow-sm border py-1 px-2" v-for="x in 4" style="font-size: 12px;">
+                                        {{ $t(`projects.projects[2].skills[${x - 1}]`) }}
+                                    </span>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -71,7 +86,7 @@
                     </div>
                 </article>
 
-                <article class="card shadow mb-5 overflow-hidden" style="background: transparent;">
+                <article class="card shadow mb-5" style="background: transparent;">
                     <div class="row g-0">
                         <div class="col-md-8 bg-white">
                             <div class="card-body p-5">
@@ -82,6 +97,11 @@
                                             class="bi bi-box-arrow-up-right text-muted ms-1"></i></a>
                                 </header>
                                 <p class="card-text">{{$t("projects.projects[3].description")}}</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="rounded-pill shadow-sm border py-1 px-2" v-for="x in 4" style="font-size: 12px;">
+                                        {{ $t(`projects.projects[3].skills[${x - 1}]`) }}
+                                    </span>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -91,17 +111,22 @@
                     </div>
                 </article>
 
-                <article class="card shadow mb-5 overflow-hidden" style="background: transparent;">
+                <article class="card shadow mb-5" style="background: transparent;">
                     <div class="row g-0">
                         <div class="col-md-8 bg-white">
                             <div class="card-body p-5">
                                 <header class="mb-4 project-header position-relative">
                                     <h5 class="card-title project-title">{{$t("projects.projects[4].title")}}</h5>
                                     <p class="company-name">{{$t("projects.projects[4].company")}}</p>
-                                    <a target="_blank" class="project-status">{{$t("projects.projects[4].status")}}<i
-                                            class="bi bi-clock text-muted ms-1"></i></a>
+                                    <a :href="$t('projects.projects[4].url')" target="_blank" class="project-status">{{$t("projects.projects[4].status")}}<i
+                                            class="bi bi-box-arrow-up-right text-muted ms-1"></i></a>
                                 </header>
                                 <p class="card-text">{{$t("projects.projects[4].description")}}</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="rounded-pill shadow-sm border py-1 px-2" v-for="x in 4" style="font-size: 12px;">
+                                        {{ $t(`projects.projects[4].skills[${x - 1}]`) }}
+                                    </span>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -121,6 +146,11 @@
                                     <a target="_blank" class="project-status">{{$t("projects.projects[5].status")}}<i class="bi bi-clock text-muted ms-1"></i></a>
                                 </header>
                                 <p class="card-text">{{$t("projects.projects[5].description")}}</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="rounded-pill shadow-sm border py-1 px-2" v-for="x in 4" style="font-size: 12px;">
+                                        {{ $t(`projects.projects[5].skills[${x - 1}]`) }}
+                                    </span>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -130,7 +160,7 @@
                     </div>
                 </article>
 
-                <article class="card shadow mb-5 overflow-hidden" style="background: transparent;">
+                <article class="card shadow mb-5" style="background: transparent;">
                     <div class="row g-0">
                         <div class="col-md-8 bg-white">
                             <div class="card-body p-5">
@@ -140,10 +170,115 @@
                                     <a target="_blank" class="project-status">{{$t("projects.projects[6].status")}}<i class="bi bi-clock text-muted ms-1"></i></a>
                                 </header>
                                 <p class="card-text">{{$t("projects.projects[6].description")}}</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="rounded-pill shadow-sm border py-1 px-2" v-for="x in 3" style="font-size: 12px;">
+                                        {{ $t(`projects.projects[6].skills[${x - 1}]`) }}
+                                    </span>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <img src="@/assets/img/projects/nftv_preview.png" class="img-fluid h-100"
+                                alt="NFT Cardano Viewer project preview" style="object-fit: cover;">
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card shadow mb-5" style="background: transparent;">
+                    <div class="row g-0">
+                        <div class="col-md-8 bg-white">
+                            <div class="card-body p-5">
+                                <header class="mb-4 project-header position-relative">
+                                    <h5 class="card-title project-title">{{$t("projects.projects[7].title")}}</h5>
+                                    <p class="company-name">{{$t("projects.projects[7].company")}}</p>
+                                    <a :href="$t('projects.projects[7].url')" target="_blank" class="project-status">{{$t("projects.projects[7].status")}}<i
+                                        class="bi bi-box-arrow-up-right text-muted ms-1"></i></a>
+                                </header>
+                                <p class="card-text">{{$t("projects.projects[7].description")}}</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="rounded-pill shadow-sm border py-1 px-2" v-for="x in 4" style="font-size: 12px;">
+                                        {{ $t(`projects.projects[7].skills[${x - 1}]`) }}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="@/assets/img/projects/tideo_preview.png" class="img-fluid h-100"
+                                alt="NFT Cardano Viewer project preview" style="object-fit: cover;">
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card shadow mb-5" style="background: transparent;">
+                    <div class="row g-0">
+                        <div class="col-md-8 bg-white">
+                            <div class="card-body p-5">
+                                <header class="mb-4 project-header position-relative">
+                                    <h5 class="card-title project-title">{{$t("projects.projects[8].title")}}</h5>
+                                    <p class="company-name">{{$t("projects.projects[8].company")}}</p>
+                                    <a :href="$t('projects.projects[8].url')" target="_blank" class="project-status">{{$t("projects.projects[8].status")}}<i
+                                        class="bi bi-box-arrow-up-right text-muted ms-1"></i></a>
+                                </header>
+                                <p class="card-text">{{$t("projects.projects[8].description")}}</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="rounded-pill shadow-sm border py-1 px-2" v-for="x in 4" style="font-size: 12px;">
+                                        {{ $t(`projects.projects[8].skills[${x - 1}]`) }}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="@/assets/img/projects/artnxs_preview.png" class="img-fluid h-100"
+                                alt="NFT Cardano Viewer project preview" style="object-fit: cover;">
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card shadow mb-5" style="background: transparent;">
+                    <div class="row g-0">
+                        <div class="col-md-8 bg-white">
+                            <div class="card-body p-5">
+                                <header class="mb-4 project-header position-relative">
+                                    <h5 class="card-title project-title">{{$t("projects.projects[9].title")}}</h5>
+                                    <p class="company-name">{{$t("projects.projects[9].company")}}</p>
+                                    <a :href="$t('projects.projects[9].url')" target="_blank" class="project-status">{{$t("projects.projects[9].status")}}<i
+                                        class="bi bi-box-arrow-up-right text-muted ms-1"></i></a>
+                                </header>
+                                <p class="card-text">{{$t("projects.projects[9].description")}}</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="rounded-pill shadow-sm border py-1 px-2" v-for="x in 4" style="font-size: 12px;">
+                                        {{ $t(`projects.projects[9].skills[${x - 1}]`) }}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="@/assets/img/projects/jfg_preview.png" class="img-fluid h-100"
+                                alt="NFT Cardano Viewer project preview" style="object-fit: cover;">
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="card shadow mb-5" style="background: transparent;">
+                    <div class="row g-0">
+                        <div class="col-md-8 bg-white">
+                            <div class="card-body p-5">
+                                <header class="mb-4 project-header position-relative">
+                                    <h5 class="card-title project-title">{{$t("projects.projects[10].title")}}</h5>
+                                    <p class="company-name">{{$t("projects.projects[10].company")}}</p>
+                                    <a :href="$t('projects.projects[10].url')" target="_blank" class="project-status">{{$t("projects.projects[10].status")}}<i
+                                        class="bi bi-box-arrow-up-right text-muted ms-1"></i></a>
+                                </header>
+                                <p class="card-text">{{$t("projects.projects[10].description")}}</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="rounded-pill shadow-sm border py-1 px-2" v-for="x in 4" style="font-size: 12px;">
+                                        {{ $t(`projects.projects[10].skills[${x - 1}]`) }}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="@/assets/img/projects/ne_preview.png" class="img-fluid h-100"
                                 alt="NFT Cardano Viewer project preview" style="object-fit: cover;">
                         </div>
                     </div>
@@ -201,10 +336,6 @@
     font-size: 14px;
     line-height: 1;
     text-decoration: underline;
-}
-
-article {
-    height: 376px;
 }
 
 .row {

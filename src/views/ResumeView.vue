@@ -66,6 +66,25 @@ getStorageURL(fileRef)
                             </div>
                         </div>
                     </div>
+                    <div class="card shadow mt-5">
+                        <div class="card-body p-4 p-lg-5">
+                            <div class="row">
+                                <p class="dates">{{$t("resume.experience.history[1].date")}}</p>
+                                <div class="col-12 col-lg-4">
+                                    <p class="mb-0 text-secondary fw-bold">{{ $t("resume.experience.history[1].role") }}</p>
+                                    <p class="text-secondary">Freelance</p>
+                                </div>
+                                <div class="col-12 col-lg-8">
+                                    <ul>
+                                        <li>{{ $t("resume.experience.history[1].activities[0]") }}</li>
+                                        <li>{{ $t("resume.experience.history[1].activities[1]") }}</li>
+                                        <li>{{ $t("resume.experience.history[1].activities[2]") }}</li>
+                                        <li>{{ $t("resume.experience.history[1].activities[3]") }}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </article>
 
                 <article class="skills mt-5">
@@ -78,32 +97,32 @@ getStorageURL(fileRef)
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <ul class="mb-0">
-                                        <li>HTML5</li>
-                                        <li>CSS3</li>
-                                        <li>JavaScript</li>
                                         <li>Vue.js</li>
                                         <li>Nuxt.js</li>
+                                        <li>TypeScript</li>
                                         <li>Firebase</li>
+                                        <li>APIs</li>
+                                        <li>GCP - AWS</li>
                                     </ul>
                                 </div>
                                 <div class="col-12 col-sm-4">
                                     <ul class="mb-0">
-                                        <li>GCP</li>
-                                        <li>Git</li>
+                                        <li>React</li>
+                                        <li>Next.js</li>
+                                        <li>Tailwind</li>
+                                        <li>Bootstrap</li>
+                                        <li>Photoshop - Figma</li>
+                                        <li>Postman</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <ul class="mb-0">
                                         <li>Node.js</li>
                                         <li>Express.js</li>
                                         <li>MongoDB</li>
-                                        <li>TypeScript</li>
-                                    </ul>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <ul class="mb-0">
-                                        <li>Blockchain APIs</li>
-                                        <li>Jira</li>
-                                        <li>Photoshop</li>
-                                        <li>Figma</li>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
                                         <li>Python</li>
-                                        <li>React</li>
                                     </ul>
                                 </div>
                             </div>

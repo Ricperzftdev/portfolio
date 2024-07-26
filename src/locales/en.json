@@ -12,7 +12,7 @@
         "ImIdo": "Here's who I am & what I do",
         "resume": "resume",
         "projects": "projects",
-        "description": "I'm Civil Engineer and Full Stack Developer from Venezuela with 2 years of experience in web3 technology development. Proficient in Vue.js, Nuxt.js, Firebase, and integrating APIs like Koios and Blockfrost for Cardano blockchain applications."
+        "description": "I'm Civil Engineer and Full Stack Developer from Venezuela with 2 years of experience in web3 technology development. Proficient in Vue.js, Nuxt.js, Firebase, and integrating APIs for web applications."
     },
     "resume": {
         "title": "Resume",
@@ -35,7 +35,18 @@
                         "Implemented Firebase as the database and backend, leveraging Firebase Cloud Functions to ensure data security through filtering and validation.",
                         "Contributed to the development of a control panel that empowered clients with total project control, providing real-time statistics and testing capabilities for new features in NFT projects.",
                         "Built the foundation for an NFT viewer with support for multiple file types.",
-                        "Led the development of an ongoing NFT game, orchestrating user wallet integration, matchmaking system with cancellation options, character selection mechanics, real-time gameplay implementation, and end-of-match result presentation. Implemented Firebase technologies, including transactions and Firestore, to establish a secure and immersive realtime gaming experience, with all data stored and accessible through a user-friendly scoreboard."
+                        "Led the development of an ongoing NFT game, orchestrating user wallet integration, matchmaking system with cancellation options, character selection mechanics, real-time gameplay implementation, and end-of-match result presentation."
+                    ]
+                },
+                {
+                    "company": "Freelance",
+                    "role": "Full Stack Developer",
+                    "date": "09/2023 - Current",
+                    "activities": [
+                        "Led the frontend development using Nuxt.js and TypeScript for a website focused on AI-powered video creation. Integrated AWS for a scalable backend.",
+                        "Developed full stack solutions using Vue 3 and Firebase for UK-based business websites. Delivered customized, robust, and user-friendly interfaces while ensuring efficient backend management and real-time data updates.",
+                        "Built and maintained the frontend of an NFT marketplace with Next.js and React. Focused on creating a seamless user interface for secure NFT transactions on the Polygon network, continuously improving user experience and platform stability.",
+                        "Finalized the development of a dynamic NFT game using Vue 3 and web3 technologies. Enabled the addition of new projects and features, and developed mechanisms for awarding monetary prizes, emphasizing the play-to-earn (P2E) model."
                     ]
                 }
             ]
@@ -68,49 +79,88 @@
                 "company": "Blockchain Pilots",
                 "status": "is live",
                 "url": "https://blockchainpilots.io/",
-                "description": "Blockchain Pilots offer an array of services and tools, whether you’re a new or established business or project. We have experience in delivering on comprehensive software and consulting needs such as web3 development, stake pools, NFT minting, artwork layering and chain data manipulation."
+                "description": "Blockchain Pilots offer an array of services and tools, whether you’re a new or established business or project. We have experience in delivering on comprehensive software and consulting needs such as web3 development, stake pools, NFT minting, artwork layering and chain data manipulation.",
+                "skills": ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
             },
             {
                 "title": "TokenPerkz Website",
                 "company": "Blockchain Pilots",
                 "status": "is live",
                 "url": "https://tokenperkz.com/",
-                "description": "TokenPerkz is an innovative portal, which allows holders of your NFTs to see locked content provided by you. This can include images, videos, demos, testing areas, live streams, an NFT store, an e-commerce merch store, reward points and more."
+                "description": "TokenPerkz is an innovative portal, which allows holders of your NFTs to see locked content provided by you. This can include images, videos, demos, testing areas, live streams, an NFT store, an e-commerce merch store, reward points and more.",
+                "skills": ["Vue.js", "Nuxt.js", "Bootstrap", "Firebase", "APIs"]
             },
             {
                 "title": "Springboard Website",
                 "company": "Blockchain Pilots",
                 "status": "is live",
                 "url": "https://springboardnft.com/",
-                "description": "Springboard is made up of a group of NFT enthusiasts with the aim to help raise awareness of the independent creative talents on the Cardano Blockchain. The power of Art NFTs lies in the connection between the Artist and the market. By offering services such as minting, auctions and Artist compilation drops."
+                "description": "Springboard is made up of a group of NFT enthusiasts with the aim to help raise awareness of the independent creative talents on the Cardano Blockchain. The power of Art NFTs lies in the connection between the Artist and the market. By offering services such as minting, auctions and Artist compilation drops.",
+                "skills": ["Vue.js", "Nuxt.js", "Bootstrap", "Firebase"]
             },
             {
                 "title": "RetroNFTs Website",
                 "company": "Blockchain Pilots",
                 "status": "is live",
                 "url": "https://retronfts.art/",
-                "description": "RetroNFTs was founded in 2021 by two crypto-enthusiasts, Nathan and Terry, with the aim of doing things a little differently. The duo specialise in building relationships with emerging artists, helping them expose their talent to a global network using the Cardano blockchain to create collectible NFTs."
+                "description": "RetroNFTs was founded in 2021 by two crypto-enthusiasts, Nathan and Terry, with the aim of doing things a little differently. The duo specialise in building relationships with emerging artists, helping them expose their talent to a global network using the Cardano blockchain to create collectible NFTs.",
+                "skills": ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
             },
             {
                 "title": "Trait Wars NFT Game",
                 "company": "Blockchain Pilots",
-                "status": "in process",
-                "url": "https://blockchainpilots.io/",
-                "description": "Trait Wars is a turn-based strategy game built on the ADA Invadaz platform. Trait Wars will pit Zaguris against each other in a series of 1 v 1 battles until a Grand Champion is found! Anyone with a Zaguri can play, and earn $invada while doing it. Trait Wars will combine luck and skill, as players will need to choose their hero and when to use their boosters carefully."
+                "status": "is live",
+                "url": "https://traitwars.io/",
+                "description": "Trait Wars is a turn-based strategy game in which you will pit characters from your favorite NFTs against each other in a series of 1-on-1 battles to find a Grand Champion. Anyone who has any assets belonging to any of the listed projects is free to play and participate for prizes.",
+                "skills": ["Vue.js", "Tailwind", "Firebase", "APIs"]
             },
             {
                 "title": "Dungeon RPG Clicker Game",
                 "company": "Personal Project",
                 "status": "in process",
                 "url": "https://blockchainpilots.io/",
-                "description": "RPG Game with Node.js, Express, and MongoDB: Created a small RPG game as a personal project to enhance my skills in backend development. Employed Node.js and Express to build the server infrastructure, and MongoDB to store game data."
+                "description": "RPG Game with Node.js, Express, and MongoDB: Created a small RPG game as a personal project to enhance my skills in backend development. Employed Node.js and Express to build the server infrastructure, and MongoDB to store game data.",
+                "skills": ["Vue.js", "Bootstrap", "Node.js", "MongoDB"]
             },
             {
                 "title": "NFT Cardano Viewer",
                 "company": "Blockchain Pilots",
                 "status": "in process",
                 "url": "https://blockchainpilots.io/",
-                "description": "The application provides users with an intuitive interface for viewing their NFTs, verifying authenticity and analyzing the metadata of each NFT in detail. It supports HTML, mp3, mp4 and image files."
+                "description": "The application provides users with an intuitive interface for viewing their NFTs, verifying authenticity and analyzing the metadata of each NFT in detail. It supports HTML, mp3, mp4 and image files.",
+                "skills": ["Vue.js", "Bootstrap", "APIs"]
+            },
+            {
+                "title": "Tideo app",
+                "company": "Freelance",
+                "status": "is live",
+                "url": "https://tideo.io/",
+                "description": "Tideo enables entrepreneurs to enhance brand storytelling, helps storytellers create immersive tales, and empowers agencies to drive results across platforms. Generate professional-grade Text-To-Speech videos within seconds.",
+                "skills": ["Nuxt.js", "Tailwind", "AWS", "AI"]
+            },
+            {
+                "title": "Artnxs",
+                "company": "Freelance",
+                "status": "is live",
+                "url": "https://artnxs.io/",
+                "description": "Artnxs is an NFT marketplace where they are passionate about supporting independent artists. Their platform is a one-stop center where creativity has no limits and innovation is celebrated with every pixel.",
+                "skills": ["React", "Next.js", "Tailwind", "AWS"]
+            },
+            {
+                "title": "Jones Family Group",
+                "company": "Freelance",
+                "status": "is live",
+                "url": "https://jfguk.com/",
+                "description": "Founded in 2013 in South East London, Jones Family Group Ltd has grown from a local initiative to become a national leader in recruitment solutions, specializing in the traffic and event management sectors across the UK.",
+                "skills": ["React", "Next.js", "Tailwind", "Firebase"]
+            },
+            {
+                "title": "Noble Edge",
+                "company": "Freelance",
+                "status": "is live",
+                "url": "https://noble-edge.com/",
+                "description": "With over four decades of experience, noble edge is a new combined effort of experienced individuals who have delivered projects that exemplify craftsmanship at the highest level and a relentless pursuit of excellence.",
+                "skills": ["HTML5", "CSS3", "Bootstrap", "Firebase"]
             }
         ]
     }
